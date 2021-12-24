@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  express-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: express_server
+    expose:
+      - '3377'
+    ports:
+      - '3377:3377'
+    volumes:
+      - ./src:/home/node/app/src

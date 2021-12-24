@@ -1,0 +1,1 @@
+export { GreetingRequest } from './greeting.validator';

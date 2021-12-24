@@ -1,0 +1,1 @@
+export { default as IndexRoutes } from './index.routes';
